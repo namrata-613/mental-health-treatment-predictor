@@ -4,11 +4,11 @@ import pickle
 
 # --- Load Model and Encoders ---
 try:
-    with open('best_lgbm_model.pkl', 'rb') as f:
+    with open('model/best_lgbm_model.pkl', 'rb') as f:
         model = pickle.load(f)
-    with open('encoders.pkl', 'rb') as f:
+    with open('model/encoders.pkl', 'rb') as f:
         encoders = pickle.load(f)
-    with open('training_columns.pkl', 'rb') as f:
+    with open('model/training_columns.pkl', 'rb') as f:
         training_columns = pickle.load(f)
 except FileNotFoundError:
     st.error("Model or encoder files not found. Please run the analysis script first to generate them.")
