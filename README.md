@@ -1,6 +1,6 @@
 # Mental Health in the Tech Workplace: A Predictive Analysis
 
-https://mental-health-treatment-predictor.streamlit.app/
+[https://mental-health-treatment-predictor.streamlit.app/](https://mental-health-treatment-predictor.streamlit.app/)
 
 ### Overview
 
